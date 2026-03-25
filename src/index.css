@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-100 text-slate-900 dark:bg-slate-900 dark:text-slate-100 transition-colors duration-300;
+  }
+}
+
+.glass-panel {
+  @apply bg-white/40 dark:bg-black/40 backdrop-blur-xl border border-white/20 dark:border-white/10 shadow-xl rounded-3xl;
+}
